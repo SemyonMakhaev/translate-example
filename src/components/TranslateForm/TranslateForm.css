@@ -1,8 +1,10 @@
 .TranslateForm {
+    width: 100%;
+}
+
+.TranslateForm-Content {
     display: flex;
     justify-content: space-between;
-
-    width: 100%;
 
     padding: 0 36px;
 }
@@ -27,4 +29,10 @@
 
 .TranslateForm-Lang_align_right {
     text-align: right;
+}
+
+.TranslateForm-Error {
+    margin: 48px 24px;
+
+    color: #d00;
 }
