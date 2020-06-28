@@ -14,9 +14,19 @@ export const TranslateForm: FC = () => {
 
     return (
         <form className="TranslateForm">
-            <Textarea value={value} onChange={onChange} />
+            <div className="TranslateForm-InputWrapper">
+                <h2 className="TranslateForm-Lang">
+                    Русский
+                </h2>
+                <Textarea value={value} onChange={onChange} />
+            </div>
             <img className="TranslateForm-Arrow" src={arrow} />
-            <Textarea />
+            <div className="TranslateForm-InputWrapper">
+                <h2 className="TranslateForm-Lang TranslateForm-Lang_align_right">
+                    Английский
+                </h2>
+                <Textarea />
+            </div>
         </form>
     );
 };
