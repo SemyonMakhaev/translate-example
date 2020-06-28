@@ -12,7 +12,3 @@
     box-shadow: 0 5px 10px 4px #d3d3d3;
     resize: none;
 }
-
-.Textarea_readonly {
-    cursor: disabled;
-}

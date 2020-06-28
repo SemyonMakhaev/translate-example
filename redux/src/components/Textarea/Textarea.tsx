@@ -10,5 +10,5 @@ interface Props {
 }
 
 export const Textarea: FC<Props> = ({ disabled, readOnly, value, onChange }) => (
-    <textarea className={`Textarea ${readOnly ? 'Textarea_readonly' : ''}`} disabled={disabled} readOnly={readOnly} rows={10} value={value} onChange={onChange} />
+    <textarea className="Textarea" disabled={disabled} readOnly={readOnly} rows={10} value={value} onChange={onChange} />
 );

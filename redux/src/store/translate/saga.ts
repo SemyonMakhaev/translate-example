@@ -16,7 +16,7 @@ function* translateSaga(action: Translate) {
             text: value,
             lang: 'ru-en',
             format: 'plain',
-        }
+        },
     });
 
     try {
