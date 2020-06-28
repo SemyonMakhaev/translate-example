@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  height: 100vh;
+  padding: 64px 32px;
+
+  background-color: #282c34;
+}

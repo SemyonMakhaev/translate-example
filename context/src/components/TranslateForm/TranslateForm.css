@@ -1,0 +1,38 @@
+.TranslateForm {
+    width: 100%;
+}
+
+.TranslateForm-Content {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 36px;
+}
+
+.TranslateForm-Arrow {
+    width: 20px;
+
+    margin: 24px 30px 0;
+}
+
+.TranslateForm-InputWrapper {
+    width: 50%;
+}
+
+.TranslateForm-Lang {
+    margin: 0 0 24px;
+
+    color: #d3d3d3;
+
+    font: normal 20px/24px Roboto, sans-serif;
+}
+
+.TranslateForm-Lang_align_right {
+    text-align: right;
+}
+
+.TranslateForm-Error {
+    margin: 48px 24px;
+
+    color: #d00;
+}
