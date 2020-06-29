@@ -1,4 +1,4 @@
-import { call, put, takeEvery } from 'redux-saga/effects';
+import { call, put, takeLatest } from 'redux-saga/effects';
 import { format } from 'url';
 
 import { translateSuccess, translateFailure } from 'src/store/translate/actions';
@@ -31,5 +31,5 @@ function* translateSaga(action: Translate) {
 }
 
 export default function*() {
-    yield takeEvery(TranslateActions.FETCH, translateSaga);
+    yield takeLatest(TranslateActions.FETCH, translateSaga);
 }
